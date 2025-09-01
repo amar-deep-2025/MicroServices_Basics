@@ -56,8 +56,8 @@ As part of Microservices architecture we are going to use below components (all 
 7) FeignClient
 8) API Gateway
 
-++++++++++++++++++++
-Services Registry
+++++++++++++++++++++  
+Services Registry  
 ++++++++++++++++++++
 Service Registry is used to maintain all apis information like name, status, url and health at once place.
 
@@ -66,8 +66,8 @@ Service Registry is used to maintain all apis information like name, status, url
 ==> Eureka server provided by "Spring Cloud" library.
 ==> It will provide user interface to get apis info.
 
-+++++++++++++++++
-Admin Server
++++++++++++++++++  
+Admin Server  
 +++++++++++++++++
 =>It is used to monitor and manage all the apis at one place.(like a actuator)
 1) Health check
@@ -80,8 +80,8 @@ Admin Server
 
 ==>it provides beautiful user interface to access all apis actuator endpoints one place. 
 
-++++++++++++++++++
-Zipkin Server
+++++++++++++++++++  
+Zipkin Server  
 ++++++++++++++++++
 
 ==> It is used for distributed tracing of our requests.
