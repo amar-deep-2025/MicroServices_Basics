@@ -55,6 +55,4 @@ As part of Microservices architecture we are going to use below components (all 
 6) Redis Server
 7) FeignClient
 8) API Gateway
- 
-
-
+![alt text](image-1.png)
