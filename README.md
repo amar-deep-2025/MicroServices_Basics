@@ -40,7 +40,7 @@ In several microservice architecture we might not get chance to work with all ap
 
 ================================
 Microservices Architecture  
-================================
+================================  
 There is no fixed architecture for microservices development. 
 
 We can customize microservices architecture according to our project.
@@ -58,7 +58,7 @@ As part of Microservices architecture we are going to use below components (all 
 
 ++++++++++++++++++++  
 Services Registry  
-++++++++++++++++++++
+++++++++++++++++++++  
 Service Registry is used to maintain all apis information like name, status, url and health at once place.
 
 ==> It is also called as Service Discovery.
@@ -68,7 +68,7 @@ Service Registry is used to maintain all apis information like name, status, url
 
 +++++++++++++++++  
 Admin Server  
-+++++++++++++++++
++++++++++++++++++  
 =>It is used to monitor and manage all the apis at one place.(like a actuator)
 1) Health check
 2) config props
@@ -76,16 +76,16 @@ Admin Server
 4) beans uploaded
 5) changing log levels
 6) thread dumps
-7) heap dumps 
+7) heap dumps  
 
 ==>it provides beautiful user interface to access all apis actuator endpoints one place. 
 
 ++++++++++++++++++  
 Zipkin Server  
-++++++++++++++++++
+++++++++++++++++++  
 
 ==> It is used for distributed tracing of our requests.
-Ex: 
+Ex:   
 1) how much time taking to process one request
 2) Which microservices taking more time to process
 3) how many services involved in one requests processing.
