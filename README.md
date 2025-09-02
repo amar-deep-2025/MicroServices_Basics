@@ -67,7 +67,6 @@ Service Registry is used to maintain all apis information like name, status, url
 ==> We can use Eureka Server as service registry.
 ==> Eureka server provided by "Spring Cloud" library.
 ==> It will provide user interface to get apis info.
-
 +++++++++++++++++  
 Admin Server  
 +++++++++++++++++  
@@ -79,37 +78,35 @@ Admin Server
 5) changing log levels
 6) thread dumps
 7) heap dumps  
-
-==>it provides beautiful user interface to access all apis actuator endpoints one place. 
+=>it provides beautiful user interface to access all apis actuator endpoints one place. 
 
 ++++++++++++++++++  
 Zipkin Server  
 ++++++++++++++++++  
-
-==> It is used for distributed tracing of our requests.
+=> It is used for distributed tracing of our requests.
 Ex:   
 1) how much time taking to process one request
 2) Which microservices taking more time to process
 3) how many services involved in one requests processing.
 4) It provides beautiful user interface to access apis execution details.
 
-++++++++++++++
-Config Server
-++++++++++++++
+++++++++++++++  
+Config Server  
+++++++++++++++  
 => It is used to separate application code and application properties.
 => It is used to externalize config props of our application.
 => It makes our application loosely coupled with properties file or yml file.  
 
-+++++++++++++
-FeignClient
-+++++++++++++
++++++++++++++  
+FeignClient  
++++++++++++++  
 
 => It is used for interservice communication
 => If one api communicate with another api iin the same application then it is called as Inter service communication.
 
-++++++++++++++
-API Gateway
-+++++++++++++
+++++++++++++++  
+API Gateway  
++++++++++++++  
 
 => It acts as entry point for all backend apis.
 => It acts mediator between frontend app and backend apis.
