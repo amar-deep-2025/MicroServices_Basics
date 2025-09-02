@@ -38,9 +38,11 @@ Bounded context means identifying how many microservices we need to develop for 
 
 In several microservice architecture we might not get chance to work with all apis in the application.
 
-<pre>```================================
+<pre>
+```================================
 Microservices Architecture  
-================================  </pre>```
+================================```
+</pre>
 There is no fixed architecture for microservices development. 
 
 We can customize microservices architecture according to our project.
@@ -91,4 +93,26 @@ Ex:
 3) how many services involved in one requests processing.
 4) It provides beautiful user interface to access apis execution details.
 
+++++++++++++++
+Config Server
+++++++++++++++
+=> It is used to separate application code and application properties.
+=> It is used to externalize config props of our application.
+=> It makes our application loosely coupled with properties file or yml file.  
 
++++++++++++++
+FeignClient
++++++++++++++
+
+=> It is used for interservice communication
+=> If one api communicate with another api iin the same application then it is called as Inter service communication.
+
+++++++++++++++
+API Gateway
++++++++++++++
+
+=> It acts as entry point for all backend apis.
+=> It acts mediator between frontend app and backend apis.
+=> In API Gateway we will write filters + Routings
+            Filter : We can perform pre-process & post-process
+            Routings : To forward request to particular backend-rule.
