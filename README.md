@@ -101,15 +101,15 @@ Config Server
 FeignClient  
 +++++++++++++  
 
-=> It is used for interservice communication
+=> It is used for interservice communication  
 => If one api communicate with another api iin the same application then it is called as Inter service communication.
 
 ++++++++++++++  
 API Gateway  
 +++++++++++++  
 
-=> It acts as entry point for all backend apis.
-=> It acts mediator between frontend app and backend apis.
-=> In API Gateway we will write filters + Routings
-            Filter : We can perform pre-process & post-process
-            Routings : To forward request to particular backend-rule.
+=> It acts as entry point for all backend apis.  
+=> It acts mediator between frontend app and backend apis.  
+=> In API Gateway we will write filters + Routings  
+            Filter : We can perform pre-process & post-process  
+            Routings : To forward request to particular backend-rule.  
