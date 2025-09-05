@@ -141,4 +141,9 @@ ADMIN SERVER DEVELOPMENT
 
 3) Change Port Number (Optional)
 
+4) Run the Boot application
+
+5) Access application URL in browser (We can see Admin Server UI)
+
+
 
