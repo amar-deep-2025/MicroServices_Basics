@@ -113,3 +113,22 @@ API Gateway
 => In API Gateway we will write filters + Routings  
             Filter : We can perform pre-process & post-process  
             Routings : To forward request to particular backend-rule.  
+
+==================================================  
+Steps to develop Service Registry Application(Eureka Server)  
+====================================================  
+
+1) Create SpringBoot  application  with below dependency
+ ------------EurekaServer(spring-cloud-starter-netflix-eureka-server)  
+
+2) Configure @EnableEurekaServer annotation in boot start class
+
+3) Configure below properties in application.yml file 
+server :
+port: 8761
+
+Note :  
+=> If Service-Registry project port is 8761 then Clients discover service-registry and will register automatically  with service-registry. 
+=> If service-registry project running on any other port number then we have to register Clients with service-registry manually
+
+
