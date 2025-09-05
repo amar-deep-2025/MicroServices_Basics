@@ -131,4 +131,14 @@ Note :
 => If Service-Registry project port is 8761 then Clients discover service-registry and will register automatically  with service-registry. 
 => If service-registry project running on any other port number then we have to register Clients with service-registry manually
 
+===========================
+ADMIN SERVER DEVELOPMENT
+=============================
+
+1) Create Boot application with "admin-server" dependency (select it while creating the project)
+
+2) Configure @EnableAdminServer annotation at start class
+
+3) Change Port Number (Optional)
+
 
