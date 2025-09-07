@@ -118,10 +118,12 @@ API Gateway
 Steps to develop Service Registry Application(Eureka Server)  
 ====================================================  
 
-1) Create SpringBoot  application  with below dependency
+1) Create SpringBoot  application  with below dependency  
+
  ------------EurekaServer(spring-cloud-starter-netflix-eureka-server)  
 
 2) Configure @EnableEurekaServer annotation in boot start class
+
 
 3) Configure below properties in application.yml file 
 server :
@@ -130,6 +132,10 @@ port: 8761
 Note :  
 => If Service-Registry project port is 8761 then Clients discover service-registry and will register automatically  with service-registry. 
 => If service-registry project running on any other port number then we have to register Clients with service-registry manually
+
+Note : Eureka.client.register-with-eureka=false  
+-> This means your app will not register itself with the Eureka server.  
+It's useful when your service is only acting as a consumer (discovering other services) and you don't want it listed a provider.
 
 ===========================
 ADMIN SERVER DEVELOPMENT
@@ -146,4 +152,15 @@ ADMIN SERVER DEVELOPMENT
 5) Access application URL in browser (We can see Admin Server UI)
 
 
+==================================  
+STEPS TO WORK WITH ZIPKIN SERVER  
+===================================  
 
+1) Download ZIPKIN JAR file
+URL : https://zipkin.io/pages/quickstart.html  
+
+2) Run zipkin jar file  
+URL : $ java -jar <jar-name>  
+
+3) Zipkin Server Runs on Port Number 9411
+URL : http://localhost:9411/
