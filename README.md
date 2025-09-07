@@ -137,7 +137,7 @@ Note : Eureka.client.register-with-eureka=false
 -> This means your app will not register itself with the Eureka server.  
 It's useful when your service is only acting as a consumer (discovering other services) and you don't want it listed a provider.
 
-===========================  
+============================  
 ADMIN SERVER DEVELOPMENT  
 =============================  
 
