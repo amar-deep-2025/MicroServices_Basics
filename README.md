@@ -162,7 +162,21 @@ URL : https://zipkin.io/pages/quickstart.html
 
 2) Run zipkin jar file   
 
-URL : java -jar `<jar-name>`   
+URL : java -jar `<jar-name/path>`   
 
 3) Zipkin Server Runs on Port Number 9411  
 URL : http://localhost:9411/
+
+################################  
+STEPS TO DEVELOP WELCOME-API  
+################################  
+
+1) Create Spring Boot application with below dependencies
+
+- eureka-discovery-client
+- admin-client
+- zipkin
+
+- starter -web 
+- devtools
+- actuator
