@@ -137,9 +137,9 @@ Note : Eureka.client.register-with-eureka=false
 -> This means your app will not register itself with the Eureka server.  
 It's useful when your service is only acting as a consumer (discovering other services) and you don't want it listed a provider.
 
-===========================
-ADMIN SERVER DEVELOPMENT
-=============================
+===========================  
+ADMIN SERVER DEVELOPMENT  
+=============================  
 
 1) Create Boot application with "admin-server" dependency (select it while creating the project)
 
@@ -156,11 +156,13 @@ ADMIN SERVER DEVELOPMENT
 STEPS TO WORK WITH ZIPKIN SERVER  
 ===================================  
 
-1) Download ZIPKIN JAR file
+1) Download ZIPKIN JAR file  
+
 URL : https://zipkin.io/pages/quickstart.html  
 
-2) Run zipkin jar file  
+2) Run zipkin jar file   
+
 URL : $ java -jar <jar-name>  
 
-3) Zipkin Server Runs on Port Number 9411
+3) Zipkin Server Runs on Port Number 9411  
 URL : http://localhost:9411/
